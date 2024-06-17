@@ -23,7 +23,6 @@ class _SplashState extends State<Splash> {
   }
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.green,
       body: Center(
         child: Image.asset(AppAssets.logo),
       ),
